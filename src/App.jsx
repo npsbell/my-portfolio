@@ -29,7 +29,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false); //เมื่อโหลดเสร็จให้preloading เป็น false
-    }, 3000); //3วินาที
+    }, 2000); //2วินาที
   }, []);
 
   return (
@@ -55,11 +55,3 @@ function App() {
 }
 
 export default App;
-
-{
-  /* <l-jelly-triangle
-  size="30"
-  speed="1.75"
-  color="black" 
-></l-jelly-triangle> */
-}

@@ -1,9 +1,8 @@
-import React from "react";
 import { CardBody, CardContainer, CardItem } from "../ui/3d-card";
-import { projects } from "../../data";
 import git_logo from '../../../public/icon/github.svg'
 import link_logo from '../../../public/icon/link.svg'
 import { BackgroundGradient } from "../ui/background-gradient";
+import { projects } from "../../data"
 
 export function ThreeDCardDemo() {
   return (
@@ -47,7 +46,7 @@ export function ThreeDCardDemo() {
             </CardBody>
           </CardContainer>
         </BackgroundGradient>)
-    ))}
+       ))}
     </div>
   );
 }

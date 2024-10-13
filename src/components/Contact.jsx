@@ -18,25 +18,25 @@ const Contact = () => {
       <div className="flex justify-center items-start md:items-center flex-col md:flex-row flex-wrap z-20 gap-5">
         <div className="flex items-center gap-3">
           <div className="p-2 bg-white rounded-full">
-            <img src="../../public/icon/email.svg" alt="" width={20} />
+            <img src="/icon/email.svg" alt="" width={20} />
           </div>
           <p>napasorn.tsp@gmail.com</p>
         </div>
         <div className="flex items-center gap-3">
           <div className="p-2 bg-white rounded-full">
-            <img src="../../public/icon/phone.svg" alt="" width={20} />
+            <img src="/icon/phone.svg" alt="" width={20} />
           </div>
           <p>099-392-3268</p>
         </div>
         <div className="flex items-center gap-3">
           <div className="p-2 bg-white rounded-full">
-            <img src="../../public/icon/github.svg" alt="" width={20} />
+            <img src="/icon/github.svg" alt="" width={20} />
           </div>
           <a href="https://github.com/npsbell" target="_blank">https://github.com/npsbell</a>
         </div>
         <div className="flex items-center gap-3">
           <div className="p-2 bg-white rounded-full">
-            <img src="../../public/icon/address.svg" alt="" width={20} />
+            <img src="/icon/address.svg" alt="" width={20} />
           </div>
           <p>Chiang Mai, THAILAND 50300</p>
         </div>

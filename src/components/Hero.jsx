@@ -1,5 +1,6 @@
 import React from "react";
 import { AuroraBackground } from "../components/ui/aurora-background";
+import resume from '../../public/Napasorn Thongsopha.pdf'
 
 const Hero = () => {
   return (
@@ -28,7 +29,7 @@ const Hero = () => {
           </p>
         <div className="flex gap-5 justify-center mt-10">
           <button className="border border-white/40 dark:border-black/40 py-3 px-5 rounded-xl bg-white dark:bg-gray-800 bg-opacity-30 backdrop-blur-md shadow-md hover:shadow-lg dark:hover:bg-gray-700 active:shadow-inner transition-all duration-300">
-            Download CV
+            <a href={resume} target="_blank" download>Download CV</a>
           </button>
           <button className="border border-white/40 dark:border-black/40 py-3 px-10 rounded-xl bg-white dark:bg-gray-800 bg-opacity-30 backdrop-blur-md shadow-md hover:shadow-lg dark:hover:bg-gray-700 active:shadow-inner transition-all duration-300">
              <a href="https://github.com/npsbell" target="_blank">Github</a>

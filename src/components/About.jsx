@@ -10,7 +10,7 @@ const About = () => {
       <div className="top flex flex-col md:flex-row w-full justify-center items-center">
         {/* ------------pic------------ */}
         <div className="left w-full flex justify-center items-center md:w-[50%] p-10">
-          <img src="../../public/pic.jpeg" alt="me" width={320} className="rounded-full box-glow" />
+          <img src="/pic.jpeg" alt="me" width={320} className="rounded-full box-glow" />
         </div>
 
         {/* ---------------timeline-------------- */}
