@@ -195,3 +195,30 @@ export const projects = [
         link: null
     },
 ]
+
+export const contact = [
+    {
+        id: 1,
+        img: '/icon/email.svg',
+        des: 'napasorn.tsp@gmail.com',
+        link: null
+    },
+    {
+        id: 2,
+        img: '/icon/phone.svg',
+        des: '099-392-3268',
+        link: null
+    },
+    {
+        id: 3,
+        img: '/icon/github.svg',
+        des: 'https://github.com/npsbell',
+        link: 'https://github.com/npsbell'
+    },
+    {
+        id: 4,
+        img: '/icon/address.svg',
+        des: 'Chiang Mai, THAILAND 50300',
+        link: null
+    },
+]

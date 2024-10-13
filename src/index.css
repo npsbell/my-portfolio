@@ -20,9 +20,6 @@ body {
 a {
   text-decoration: none;
   color: inherit;
-}
-
-ul li {
   cursor: pointer;
 }
 

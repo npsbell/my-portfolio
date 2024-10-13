@@ -22,7 +22,7 @@ export function CanvasRevealEffectDemoCertificate() {
             </AnimatePresence>
             <div className="relative z-20">
               <div className="flex items-center justify-center ">
-                <img src={item.img} alt="" className="w-[80%] object-contain"/>
+                <img src={item.img} alt="" className="w-[80%] object-contain" loading="lazy"/>
               </div>
             </div>
           </div>

@@ -27,7 +27,7 @@ export function CanvasRevealEffectDemoSkills() {
             </AnimatePresence>
             <div className="relative z-20">
               <div className="text-center transition duration-200 flex items-center justify-between gap-3 w-full">
-                <img src={item.img} alt="" className="w-10"/>
+                <img src={item.img} alt="" className="w-10" loading="lazy"/>
                 <p className="text-base">{item.des}</p>
               </div>
             </div>
@@ -57,7 +57,7 @@ export function CanvasRevealEffectDemoSkills() {
             </AnimatePresence>
             <div className="relative z-20">
               <div className="text-center transition duration-200 w-full flex items-center justify-center gap-3">
-                <img src={item.img} alt="" className="w-10"/>
+                <img src={item.img} alt="" className="w-10" loading="lazy"/>
                 <p className="text-base">{item.des}</p>
               </div>
             </div>
