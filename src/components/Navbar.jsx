@@ -33,10 +33,10 @@ const Navbar = ({ darkMode, toggleDisplayMode }) => {
                 <a href="#hero">npsbell.</a>
               </div>
               <ul className="flex gap-3 sm:gap-7">
-                <a href="#about-me" className="dark:hover:text-neutral-300">About</a>
-                <a href="#skills" className="dark:hover:text-neutral-300">Skills</a>
-                <a href="#projects" className="dark:hover:text-neutral-300">Projects</a>
-                <a href="#contact" className="dark:hover:text-neutral-300">Contact</a>
+                <a href="#about-me" className="dark:hover:text-neutral-300 duration-300">About</a>
+                <a href="#skills" className="dark:hover:text-neutral-300 duration-300">Skills</a>
+                <a href="#projects" className="dark:hover:text-neutral-300 duration-300">Projects</a>
+                <a href="#contact" className="dark:hover:text-neutral-300 duration-300">Contact</a>
               </ul>
               <button
                 onClick={() => {
