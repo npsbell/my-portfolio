@@ -1,7 +1,6 @@
 import Home from "./page/Home";
 import Navbar from "./components/Navbar";
 import { useEffect, useState } from "react";
-import "ldrs/jellyTriangle";
 
 function App() {
   const [darkMode, setDarkMode] = useState(() => {
@@ -35,12 +34,8 @@ function App() {
   return (
     <>
       {loading ? (
-        <div className="w-screen h-screen flex justify-center items-center">
-          <l-jelly-triangle
-            size="30"
-            speed="1.75"
-            color="black"
-          ></l-jelly-triangle>
+        <div className="w-screen h-screen flex justify-center items-center text-4xl font-semibold text-glow">
+          Loading . . .
         </div>
       ) : (
         <div className={`${darkMode ? "dark" : ""}`}>
