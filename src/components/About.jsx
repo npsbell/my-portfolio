@@ -1,5 +1,7 @@
 import { Button } from "./ui/moving-border";
 import { education, workExperience, internship } from "../data";
+import me from '../../public/pic.jpeg'
+import threed from '../../public/3d pic.png'
 
 const About = () => {
   return (
@@ -9,7 +11,7 @@ const About = () => {
       <div className="top flex flex-col md:flex-row w-full justify-center items-center">
         {/* ------------pic------------ */}
         <div className="left w-full flex justify-center items-center md:w-[50%] p-10">
-          <img src="/pic.jpeg" alt="me" width={320} className="rounded-full box-glow" loading="lazy"/>
+          <img src={me} alt="me" width={320} className="rounded-full box-glow" loading="lazy"/>
         </div>
 
         {/* ---------------timeline-------------- */}
@@ -103,7 +105,7 @@ const About = () => {
         </div>
 
         <div className="w-full h-full md:w-[40%] flex justify-center items-center p-[3%]">
-           <img src="/3d pic.png" className="w-full h-full object-contain" loading="lazy"/>
+           <img src={threed} className="w-full h-full object-contain" loading="lazy"/>
         </div>
       </div>
     </div>
