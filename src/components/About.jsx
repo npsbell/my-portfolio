@@ -1,6 +1,5 @@
 import { Button } from "./ui/moving-border";
 import { education, workExperience, internship } from "../data";
-import SplineAnimation from "./ui/splineAnimation";
 
 const About = () => {
   return (
@@ -49,7 +48,7 @@ const About = () => {
       </div>
 
       {/* -----------------------------------botton---------------------------------- */}
-      <div className="botton flex flex-col md:flex-row w-full">
+      <div className="botton flex justify-center items-center flex-col md:flex-row w-full">
         <div className="work w-full md:w-[60%]">
           <div className="text-2xl font-semibold tracking-wider mb-10 text-glow text-center md:text-start">
             {" "}
@@ -103,8 +102,8 @@ const About = () => {
           ))}
         </div>
 
-        <div className="w-full md:w-[40%] h-[500px] flex justify-center items-center">
-            <SplineAnimation />
+        <div className="w-full h-full md:w-[40%] flex justify-center items-center p-[3%]">
+           <img src="/3d pic.png" className="w-full h-full object-contain"/>
         </div>
       </div>
     </div>
