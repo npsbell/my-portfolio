@@ -11,7 +11,7 @@ const Hero = () => {
       >
           <p className="text-xl tracking-wider">Hello I'm Bell</p>
           <p className="font-semibold text-3xl md:text-5xl py-5 text-purple-300">
-            NAPASORN THONGSPHA
+            NAPASORN THONGSOPHA
           </p>
           <p className="text-end text-ml md:text-2xl pb-5 tracking-widest"> 
             Looking for{" "}
